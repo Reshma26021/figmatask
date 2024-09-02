@@ -1,0 +1,170 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+li{
+    list-style: none;
+    display: inline;
+    margin: 10px;
+    color: black;
+}
+button:hover{
+    background-color: red;
+}
+.home{
+    width: 85%;
+    height: 350px;
+  margin-left: 50px;
+  display: flex;
+  justify-content: space-between;
+    
+    
+}
+.homecontent{
+    margin-left: 60px;
+}
+.red{
+    color: red;
+    font-size: small;
+}
+
+
+h1{
+    font-weight: 800;
+    
+}
+.homepara{
+    font-size: 15px;
+    text-align: justify;
+}
+.btn1{
+    background-color: orange;
+   padding-right: 10px;
+   padding-left: 10px;
+    border-radius: 80px;
+    font-size: x-large;
+
+      text-decoration: none;
+    color: black;
+    width: 150px;
+}
+.btn1:hover {
+    background-color: transparent;
+
+
+}
+.cat{
+    text-align: center;
+}
+.group{ 
+ float :left;
+width:200px;
+height:200px;
+background-color: white;
+border-radius: 10px,solid;
+margin: 2px;
+ margin-left: 150px; 
+} 
+.nextstep{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+#nextstep{
+    margin: 25% 0px 10px 10%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:20px
+    
+}
+.stephead{
+    margin-left: 100px;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 100px;
+}
+.nextimg{
+    padding-top: 150px;
+}
+#testimonials{
+    margin: 10% 0px 10px 10%;
+}
+.group1{
+    float :left;
+    width:200px;
+    height:220px;
+    background-color: white;
+    border-radius: 1px,solid;
+    margin: 10px;
+     margin-left: 150px; 
+}
+.para{
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 600;
+}
+#logos{
+    margin: 20% 0px 10px 10%;
+}
+.logo{
+    background-color: lightgray;
+     width: 85%;
+     Height:100px;
+
+padding-left: 150px;
+
+}
+#aboutus{
+    margin: 10% 10px 10px 10%;
+
+}
+.moreabout{
+    width: 75%;
+    Height: 150px;
+    background-color: lightgrey;
+    margin-left: 100px;
+}
+.morepara{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+#footersection{
+    margin: 10% 10px 10px 10%;
+
+}
+.footer{
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+}
+.col{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column; 
+}
+.listitems{
+    list-style: none;
+   display: flex;
+   
+   flex-direction: column;
+   font-size: medium;
+   color: black;
+    
+}
+.blue{
+    color: blue;
+}
